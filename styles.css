@@ -1,0 +1,54 @@
+/* Reset body margin and set background color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+/* Full screen container for Monaco Editor */
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Custom Monaco Editor Background */
+.monaco-editor {
+    border: none;
+    background-color: #141414;
+}
+
+/* Custom cursor */
+.monaco-editor .cursor {
+    border-left: 2px solid #ffa1dc; /* Smooth pink cursor */
+}
+
+/* Minimap customization */
+.monaco-editor .minimap {
+    background-color: #222222;
+}
+
+/* Suggestion dropdown styles */
+.monaco-editor .suggest-widget {
+    background-color: #222222;
+    border: 1px solid #444444;
+    color: #e0e0e0;
+}
+
+.monaco-editor .suggest-widget .suggest-item.selected {
+    background-color: #4b4b4b;
+}
+
+.monaco-editor .suggest-widget .suggest-item:hover {
+    background-color: #666666;
+}
+
+/* Adjust padding */
+.monaco-editor .editor-background {
+    background-color: #141414;
+}
+
+.monaco-editor .line-numbers {
+    color: #555555;
+}
